@@ -1,0 +1,77 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    width: 970px;
+    height: 250px;
+    -webkit-animation: fadeIn 1s linear 0s forwards;
+    -moz-animation: fadeIn 1s linear 0s forwards;
+    animation: fadeIn 1s linear 0s forwards;
+}
+.container .bg{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(images/bg-970x250.png) no-repeat center center;
+    -webkit-animation: fadeIn .75s linear .5s forwards;
+    -moz-animation: fadeIn .75s linear .5s forwards;
+    animation: fadeIn .75s linear .5s forwards;
+}
+.container .text{
+    visibility: hidden;
+    position: absolute;
+    width: 268px;
+    height: 72px;
+    top: 90px;
+    left: 415px;
+    background: url(images/text-970x250.png) no-repeat center center;
+    -webkit-animation: fadeInLeft .75s linear 2s forwards;
+    -moz-animation: fadeInLeft .75s linear 2s forwards;
+    animation: fadeInLeft .75s linear 2s forwards;
+}
+.container .car{
+    visibility: hidden;
+    position: absolute;
+    width: 545px;
+    height: 226px;
+    left: 0;
+    top: 24px;
+    background: url(images/car-970x250.png) no-repeat center center;
+    -webkit-animation: fadeInLeft .75s linear 1s forwards;
+    -moz-animation: fadeInLeft .75s linear 1s forwards;
+    animation: fadeInLeft .75s linear 1s forwards;
+}
+.container .logo{
+    visibility: hidden;
+    position: absolute;
+    width: 97px;
+    height: 40px;
+    top: 70px;
+    right: 89px;
+    background: url(images/logo-970x250.png) no-repeat center center;
+    -webkit-animation: fadeInLeft100 .5s linear 3s forwards;
+    -moz-animation: fadeInLeft100 .5s linear 3s forwards;
+    animation: fadeInLeft100 .5s linear 3s forwards;
+}
+.container .bottom{
+    visibility: hidden;
+    position: absolute;
+    width: 225px;
+    height: 71px;
+    bottom: 50px;
+    right: 22px;
+    background: url(images/bottom-970x250.png) no-repeat center center;
+    -webkit-animation: fadeInLeft100 .5s linear 3s forwards;
+    -moz-animation: fadeInLeft100 .5s linear 3s forwards;
+    animation: fadeInLeft100 .5s linear 3s forwards;
+}
